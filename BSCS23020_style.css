@@ -1,0 +1,94 @@
+body{
+    background-color: #212020;
+}
+.topnav {
+    font-family:fantasy;
+    font-weight: normal;
+    overflow: hidden;
+    background-color: #333;
+    border-radius: 2%;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    transition: all 1s ease-in-out;
+  }
+  
+  .topnav a:hover {
+    background-color: #e3dede;
+    color: black;
+    transform: scale(1.09);
+  }
+  
+  .topnav a.right {
+    float: right;
+  }
+  .aboutus img{
+    width: 1507px;
+    height: auto;
+  }
+  .linkprod img{
+    width: 1507px;
+    height: auto;
+  }
+  p {
+    margin: 0;
+    padding: 0;
+}
+.block-element {
+    padding: 5px;
+}
+/* Style the images */
+p img {
+    border-radius: 10px; /* Rounded corners */
+    margin: 5px; /* Add space between the images */
+    width: 280px; /* Adjust the width of the images */
+    height: auto; /* Maintain aspect ratio */
+    display: inline-block; /* Display the images in one line */
+}
+.pro-img img{
+    float: left;
+    border-radius: 10px;
+    margin: 10px;
+    width: 280px;
+    height: auto;
+
+}
+.products{
+    padding-top: 40px;
+    color: #f2f2f2;
+    float: left;
+    background-color: #3b3838;
+    font-family: sans-serif;
+    width: 180px;
+    height: 370px;
+    font-size: medium;
+    border-radius: 5%;
+}
+/* Styling for the footer */
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: linear-gradient(to right, #5d5959, #212020); /* Grey gradient background */
+    color: black; /* Text color */
+    text-align: center; /* Center-align the text */
+    padding: 10px 0; /* Add some padding for better spacing */
+}
+
+.footer {
+    display: inline-block; /* Display the divs in one line */
+    margin: 0 20px; /* Add some margin for spacing between items */
+}
+.contact{
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+    font-family: fantasy;
+    font-size: 32px;
+}
